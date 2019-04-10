@@ -59,6 +59,8 @@ namespace syech
                 //if input 2 (obat)
                 Console.WriteLine("\n");
                 Console.WriteLine("Tambah Obat Page");
+                Console.Write("Kode Obat : ");
+                Console.ReadLine();
                 Console.Write("Nama  : ");
                 Console.ReadLine();
                 Console.Write("Jenis : ");
