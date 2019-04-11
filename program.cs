@@ -75,6 +75,7 @@ namespace syech
                 Console.WriteLine("Hapus Obat Page");
                 Console.WriteLine("Menu :");
                 Console.Write("Kode Obat : ");
+                //pertama masukkan kode obat, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Obat Tidak Ada"
                 Console.ReadLine();
                 Console.WriteLine("\n");
                 //if input 4 (obat)
@@ -184,7 +185,19 @@ namespace syech
                 //if input 2 -- Adm -- Hapus Data Pasien
                 Console.WriteLine("Edit Data Pasien");
                 Console.Write("Nomor Pasien     : ");
-                //pertama masukkan Nomor Pasien, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Pasien Ticak Ada"
+                //pertama masukkan Nomor Pasien, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Obat Tidak Ada"
+
+                Console.Write("Nama             : ");
+                Console.ReadLine();
+                Console.Write("Tempat,Tgl-lahir : ");
+                Console.ReadLine();
+                Console.Write("Tipe Pasien      : ");
+                Console.ReadLine();
+                Console.Write("Asuransi BPJS    : ");
+                Console.ReadLine();
+                Console.Write("No Handphone     : ");
+                Console.Write("/nBerhasil Dihapus!");
+                Console.ReadLine();
                 Console.ReadLine();
 
                 Console.Write("Nama             : ");
