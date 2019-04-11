@@ -78,6 +78,10 @@ namespace syech
                 //pertama masukkan kode obat, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Obat Tidak Ada"
                 Console.ReadLine();
                 Console.WriteLine("\n");
+                Console.Write("Nama  : {0}","nama");
+                Console.Write("Jenis : {0}",123);
+                Console.Write("Kode  : {0}",123);
+                Console.Write("Harga : {0}", 2132123);
                 //if input 4 (obat)
                 Console.WriteLine("\n");
                 Console.WriteLine("Edit Obat Page");
@@ -187,15 +191,11 @@ namespace syech
                 Console.Write("Nomor Pasien     : ");
                 //pertama masukkan Nomor Pasien, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Obat Tidak Ada"
 
-                Console.Write("Nama             : ");
-                Console.ReadLine();
-                Console.Write("Tempat,Tgl-lahir : ");
-                Console.ReadLine();
-                Console.Write("Tipe Pasien      : ");
-                Console.ReadLine();
-                Console.Write("Asuransi BPJS    : ");
-                Console.ReadLine();
-                Console.Write("No Handphone     : ");
+                Console.Write("Nama             : {0}",12333);
+                Console.Write("Tempat,Tgl-lahir : {0}",111);
+                Console.Write("Tipe Pasien      : {0}",123);
+                Console.Write("Asuransi BPJS    : {0}",123);
+                Console.Write("No Handphone     : {0}",123);
                 Console.Write("/nBerhasil Dihapus!");
                 Console.ReadLine();
                 Console.ReadLine();
