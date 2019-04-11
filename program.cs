@@ -124,18 +124,43 @@ namespace syech
                 //if input 1 -- Dokter
                 Console.WriteLine("Halaman Dokter");
                 Console.WriteLine("Menu :");
-                Console.WriteLine("1. Rekam Medis");
-                Console.WriteLine("2. Profile");
+                Console.WriteLine("1. Rekam Medis Pasien");
+                Console.WriteLine("2. Profile Dokter");
                 Console.WriteLine("0. Exit");
                 Console.Write("Pilihan = ");
+                Console.ReadLine();
+                //if input 1 -- Dokter -- Rekam Medis Pasien
+                Console.WriteLine("Halaman Rekam Medis Pasien");
+                Console.WriteLine("Nomor Pasien     : {0}", "17111122");
+                Console.WriteLine("Nama             : {0}", "Susi");
+                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Susi", "11-10-1998");
+                Console.WriteLine("Tipe Pasien      : {0}", "Super Duper VVVIP");
+                Console.WriteLine("Asuransi BPJS    : {0}", "1273928173921");
+                Console.WriteLine("No Handphone     : {0}", "08126655421");
+                Console.ReadLine();
+                //if input 2 -- Dokter -- Profile Dokter
+                Console.WriteLine("Halaman Profile Dokter");
+                Console.WriteLine("NIP              : {0}", "17111122");
+                Console.WriteLine("Nama             : {0}", "Susi");
+                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Susi", "11-10-1998");
+                Console.WriteLine("Spesialisasi     : {0}", "Super Duper VVVIP");
+                Console.WriteLine("Lulusan          : {0}", "1273928173921");
+                Console.WriteLine("No Handphone     : {0}", "08126655421");
                 Console.ReadLine();
                 //if input 2 -- Adm
                 Console.WriteLine("Halaman Administrasi");
                 Console.WriteLine("Menu :");
-                Console.WriteLine("1. Tambah Data Administrasi");
-                Console.WriteLine("2. Edit Data Administrasi");
-                Console.WriteLine("3. Rekam Medis");
-                Console.WriteLine("3. Profile");
+                Console.WriteLine("Halaman Obat");
+                Console.WriteLine("Menu :");
+                Console.WriteLine("1. List Data Pasien");
+                Console.WriteLine("2. Tambah Data Pasien");
+                Console.WriteLine("3. Hapus Data Pasien");
+                Console.WriteLine("4. Edit Data Pasien");
+                Console.WriteLine("5. Rekam Medis Pasien");
+                Console.WriteLine("6. Tambah Data Administrasi");
+                Console.WriteLine("7. Edit Data Administrasi");
+                Console.WriteLine("8. Rekam Medis Pasien");
+                Console.WriteLine("9. Profile");
                 Console.WriteLine("0. Exit");
                 Console.Write("Pilihan = ");
                 Console.ReadLine();
