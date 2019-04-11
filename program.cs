@@ -137,8 +137,8 @@ namespace syech
                 //if input 1 -- Dokter -- Rekam Medis Pasien
                 Console.WriteLine("Halaman Rekam Medis Pasien");
                 Console.WriteLine("Nomor Pasien     : {0}", "17111122");
-                Console.WriteLine("Nama             : {0}", "Susi");
-                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Susi", "11-10-1998");
+                Console.WriteLine("Nama             : {0}", "Wadaw");
+                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Medan", "11-10-1998");
                 Console.WriteLine("Tipe Pasien      : {0}", "Super Duper VVVIP");
                 Console.WriteLine("Asuransi BPJS    : {0}", "1273928173921");
                 Console.WriteLine("No Handphone     : {0}", "08126655421");
@@ -147,7 +147,7 @@ namespace syech
                 Console.WriteLine("Halaman Profile Dokter");
                 Console.WriteLine("NIP              : {0}", "17111122");
                 Console.WriteLine("Nama             : {0}", "Susi");
-                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Susi", "11-10-1998");
+                Console.WriteLine("Tempat,Tgl-lahir : {0},{1}", "Medan", "11-10-1998");
                 Console.WriteLine("Spesialisasi     : {0}", "Super Duper VVVIP");
                 Console.WriteLine("Lulusan          : {0}", "1273928173921");
                 Console.WriteLine("No Handphone     : {0}", "08126655421");
