@@ -150,26 +150,60 @@ namespace syech
                 //if input 2 -- Adm
                 Console.WriteLine("Halaman Administrasi");
                 Console.WriteLine("Menu :");
-                Console.WriteLine("Halaman Obat");
-                Console.WriteLine("Menu :");
                 Console.WriteLine("1. List Data Pasien");
                 Console.WriteLine("2. Tambah Data Pasien");
-                Console.WriteLine("3. Hapus Data Pasien");
-                Console.WriteLine("4. Edit Data Pasien");
-                Console.WriteLine("5. Rekam Medis Pasien");
-                Console.WriteLine("6. Tambah Data Administrasi");
-                Console.WriteLine("7. Edit Data Administrasi");
-                Console.WriteLine("8. Rekam Medis Pasien");
-                Console.WriteLine("9. Profile");
+                Console.WriteLine("3. Edit Data Pasien");
+                Console.WriteLine("4. Rekam Medis Pasien");
+                Console.WriteLine("5. Tambah Data Administrasi");
+                Console.WriteLine("6. Edit Data Administrasi");
+                Console.WriteLine("7. Rekam Medis Pasien");
+                Console.WriteLine("8. Profile Administrasi");
                 Console.WriteLine("0. Exit");
                 Console.Write("Pilihan = ");
+                //if input 2 -- Adm -- List Data Pasien
+                Console.WriteLine("List Data Pasien");
+                Console.WriteLine("Nomor Pasien\tNama Pasien\tTipe Pasien\tAsuransi BPJS\tNo HP");
+                Console.WriteLine("128789137\tFeby Guso\tVIP\t\t12312321\t21830918");
+                Console.WriteLine("128789137\tFeby Guso\tVIP\t\t12312321\t21830918");
+                Console.WriteLine("128789137\tFeby Guso\tVIP\t\t12312321\t21830918");
+                Console.WriteLine("128789137\tFeby Guso\tVIP\t\t12312321\t21830918");
+                //if input 2 -- Adm -- Tambah Data Pasien
+                Console.WriteLine("List Data Pasien");
+                Console.Write("Nomor Pasien     : ");
                 Console.ReadLine();
-                //if input 3 --  Admin
+                Console.Write("Nama             : ");
+                Console.ReadLine();
+                Console.Write("Tempat,Tgl-lahir : ");
+                Console.ReadLine();
+                Console.Write("Tipe Pasien      : ");
+                Console.ReadLine();
+                Console.Write("Asuransi BPJS    : ");
+                Console.ReadLine();
+                Console.Write("No Handphone     : ");
+                Console.ReadLine();
+                //if input 2 -- Adm -- Hapus Data Pasien
+                Console.WriteLine("Edit Data Pasien");
+                Console.Write("Nomor Pasien     : ");
+                //pertama masukkan Nomor Pasien, jika sesuai maka tampilkan deskripsi dari nomor pasien,jika tidak maka berikan pesan "Pasien Ticak Ada"
+                Console.ReadLine();
+
+                Console.Write("Nama             : ");
+                Console.ReadLine();
+                Console.Write("Tempat,Tgl-lahir : ");
+                Console.ReadLine();
+                Console.Write("Tipe Pasien      : ");
+                Console.ReadLine();
+                Console.Write("Asuransi BPJS    : ");
+                Console.ReadLine();
+                Console.Write("No Handphone     : ");
+                Console.ReadLine();
+                Console.ReadKey();
+                //if input 7527 --  Admin
                 Console.WriteLine("Halaman Admin");
                 Console.WriteLine("Menu :");
-                Console.WriteLine("1. Tambah Staff");
-                Console.WriteLine("2. Hapus Staff");
-                Console.WriteLine("3. Edit Staff");
+                Console.WriteLine("1. Tambah Staff");//struktur mirip tambah obat
+                Console.WriteLine("2. Hapus Staff");//struktur mirip hapus obat
+                Console.WriteLine("3. Edit Staff");//struktur mirip edit obat
                 Console.WriteLine("0. Exit");
                 Console.Write("Pilihan = ");
                 Console.ReadLine();
